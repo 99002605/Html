@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Example 1</title>
+    <h1>ENQUIRY FORM</h1>
+    <style>
+        body{
+            background-color:#A9A9A9;
+            color: WHITE;
+        }
+        nav{
+            background-color:Marron;
+            color: antiquewhite;
+            padding: 10px;
+            border: 3px;
+            margin: 15px;
+            text-align: center;
+        }
+        h1{
+            background-color:#373a40;
+            font-family: 'Sansita Swashed', cursive;
+            color: white;
+            text-align: center;
+            /*padding: 30;*/
+            margin: 0px;  
+        }
+        a{
+            width: 10px;
+            color: white;
+           /* background-color: yellow;*/
+            padding: 10px;
+            /*margin: auto;*/
+        }
+        footer{
+            text-align: center;
+            color: darkred;
+            bottom: 0px;
+            position: fixed;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home1.html">HOMEPAGE</a>
+            <a href="about1.html">ABOUT</a>
+            <a href="forms1.html">ENQUIRIES</a>
+        </nav>
+    </header>
+    <section>
+        <form align="center">
+            <p> Name: <input type="text" placeholder="Enter the Name" id="empName"></p>    
+            <p>Email-Id : <input type="email" placeholder="Enter the e-mail" id="empEmail"></p>
+            <p>Mobile Number : <input type="tel" placeholder="Enter Phone number" id="empPhone"></p>
+                       
+            <p>Overall Experience : <select id="empQualification">
+                <option>Excellent</option>
+                <option>GOOD</option>
+                <option>Average</option>
+                <option>Bad</option>
+		<option>Worst</option>
+            </select></p>
+
+            <p>
+                Billing to:<input type="radio" name="billoc">Home<input type="radio" name="billoc">Office
+            </p>
+            <p>
+                Other Related Queries:
+                <input type="Checkbox">Swimming Pool
+                <input type="Checkbox">Gym
+                <input type="Checkbox">Restaurant
+                <input type="Checkbox">Cafe
+                <input type="Checkbox">Suite
+		        <input type="Checkbox">Laundry
+		        <input type="Checkbox">Transport
+
+
+
+            </p>
+            <button type="button">SUBMIT</button>
+            <p>Rate your stay in Royal Palace Resorts
+                <input type="range" min="1" max="10" step="1/">
+            </p>
+            <p>
+
+            </p>
+        </form>
+    </section>   
+    <div>
+    <footer align="center">
+        Thank you.<br>
+        &copy;copyright Royal Palace Resorts.</h5> 
+    </footer>
+    </div>
+</body>
+</html>
